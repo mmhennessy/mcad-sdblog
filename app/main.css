@@ -86,4 +86,7 @@ body {
     .jumbotron {
         border-bottom: 0;
     }
+.sample-image {
+  display: block;
+}
 }
