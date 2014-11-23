@@ -1,0 +1,23 @@
+@mixin visuallyhidden () {
+  border: 0;
+  clip: rect (0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+@mixin clearfix () {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@mixin gradient-to-solid-hover ($color: $blue) {
+  background-color: linear-gradient ($color, transparent);
+  &:hover {
+    background: $color;
+  }
+}

@@ -1,0 +1,27 @@
+.article-block {
+  width: 30%;
+  height: 20em;
+  background: linear-gradient (blue, transparent);
+  padding: 1em;
+  margin: 0.5em;
+  float: left;
+  color: white;
+  &:hover {
+    background: blue;
+  }
+  .post-date {
+    float: right;
+  }
+  .post-date,
+  .category {
+    margin: 0;
+  }
+  h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  img {
+    z-index: -10;
+    max-width: none;
+  }
+}
