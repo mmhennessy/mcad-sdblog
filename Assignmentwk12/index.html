@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width">
 
         <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
-        
+
         <!-- Extra Strength Responsive Grids https://github.com/dfcb/extra-strength-responsive-grids -->
         <link rel="stylesheet" href="css/grid.css">
         <link rel="stylesheet" href="css/main.css">
@@ -22,7 +22,7 @@
         <style type="text/css">
             .no-fouc {display: none;}
         </style>
-         
+
         <script type="text/javascript">
             document.documentElement.className = 'no-fouc';
         </script>
@@ -43,7 +43,7 @@
                 <div class="block">
                     <p>Created by <a href="http://johnpolacek.com" target="_blank">John Polacek</a></p>
                     <div class="follow-btn">
-                        <iframe scrolling="no" frameborder="0" allowtransparency="true" src="http://platform.twitter.com/widgets/follow_button.1347008535.html#_=1347293944835&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=johnpolacek&amp;show_count=false&amp;show_screen_name=true&amp;size=l" class="twitter-follow-button" style="width: 169px; height: 28px;" title="Twitter Follow Button" data-twttr-rendered="true"></iframe> 
+                        <iframe scrolling="no" frameborder="0" allowtransparency="true" src="http://platform.twitter.com/widgets/follow_button.1347008535.html#_=1347293944835&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=johnpolacek&amp;show_count=false&amp;show_screen_name=true&amp;size=l" class="twitter-follow-button" style="width: 169px; height: 28px;" title="Twitter Follow Button" data-twttr-rendered="true"></iframe>
                     </div>
                 </div>
             </header>
@@ -58,13 +58,13 @@
                 <h3>Download</h3>
                 <p>Source files <a href="https://github.com/johnpolacek/imagefill.js/" target="_blank">on github</a> or <a href="https://github.com/johnpolacek/imagefill.js/zipball/master/" target="_blank">download the zip</a>.</p>
             </div>
-            
+
             <div class="block">
                 <h3>Simple Example</h3>
                 <p>Given this html:</p>
                 <pre>&lt;div class="container"&gt;&lt;img src="myawesomeimage" /&gt;&lt;/div&gt;</pre>
                 <p>Do this:</p>
-                <pre>$('.container').imagefill(); 
+                <pre>$('.container').imagefill();
 // image stretches to fill container</pre>
             </div>
 
@@ -86,7 +86,7 @@
     &lt;/div&gt;
 &lt;/div&gt;</pre>
                 <p>Do this:</p>
-                <pre>$('.grid-quarter').imagefill(); 
+                <pre>$('.grid-quarter').imagefill();
 // image stretches to fill container</pre>
                 <div class="block clearfix">
                     <div class="grid-demo">
@@ -110,7 +110,7 @@
             <div class="block">
                 <h3>Different Sizes Example</h3>
                 <p>Given images that vary in sizes, for example using jQuery Masonry or Packery, do this:</p>
-                <pre>$('.item').imagefill(); 
+                <pre>$('.item').imagefill();
 // image stretches to fill container</pre>
                 <div class="block clearfix">
                     <div class="sizes-demo">
@@ -135,7 +135,7 @@
                 <h3>Options</h3>
                 <p><strong>runOnce</strong><br>
                     Imagefill continuously checks to see if the size of the image container changes, then it adjusts the size of the image inside. To only run once, set to false.
-                </p> 
+                </p>
                 <pre>$('.img-container').imagefill({runOnce:true});</pre>
                 <p><strong>throttle</strong><br>
                     Imagefill continuously checks to see if the size of the image container changes, then it adjusts the size of the image inside. This option lets you adjust the frequency of this check (default is 100ms). To run at a higher frequency, such as for an animation rate like 60fps, do this:</p>
@@ -148,7 +148,7 @@
                 <ul>
                     <li><a href="https://github.com/desandro/imagesloaded">imagesLoaded</a></li>
                 </ul>
-            </div> 
+            </div>
 
             <div class="block">
                 <h3>If you like imagefill.js, you might also like:</h3>
@@ -159,11 +159,29 @@
                     <li><a href="http://johnpolacek.github.io/stacktable.js/">stacktable.js</a> - jQuery plugin for stacking tables on small screens.</li>
                     <li><a href="http://johnpolacek.com/2012/10/03/help-prevent-fouc/">Prevent FOUC</a> - Prevent FOUC with 2 easy steps.</li>
                 </ul>
-            </div> 
+            </div>
         </div>
 
+        <footer class="page-footer">
+
+          <div class="css-module">
+            <h3>Footer Section</h3>
+            <img class="image-sample" src="page-footer" alt="lable">
+          </div>
+
+          <p>Minneapolis College of Art and Design @ 2014</p>
+
+          <ul class="social-media">
+            <li><i class="fa fa-facebook"></i><span class="visuallyhidden">facebook</span></li>
+            <li><i class="fa fa-twitter"></i><span class="visuallyhidden">twitter</span></li>
+            <li><i class="fa fa-pinterest"></i><span class="visuallyhidden">pinterest</span></li>
+            <li><i class="fa fa-linked-in"></i><span class="visuallyhidden">linked-in</span></li>
+          </ul>
+
+        </footer>
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+        <script window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/2.1.0/jquery.imagesloaded.min.js"></script>
         <script src="js/jquery-imagefill.js"></script>
         <script>
