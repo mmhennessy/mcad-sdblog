@@ -1,17 +1,16 @@
 
-
-@import: "variable";
-@import: "global";
-@import: "blogtitle";
-@import: "mixins";
-@import: "main-nav";
-@import: "social-media";
-@import: "header";
-@import: "css-modules";
-@import: "_article-block.css";
-@import: "categories";
-@import: "blogtitle";
-@import: "main-nav";
-@import: "page-footer";
-@import: "social-media";
-@import: "utilities";
+@import "article-block"
+@import "categories"
+@import "blogtitle"
+@import "main-nav"
+@import "page-footer"
+@import "social-media"
+@import "utility-bar"
+@import "variable.scss"
+@import "global.scss"
+@import "blogtitle"
+@import "mixins"
+@import "main-nav"
+@import "social-media"
+@import "header"
+@import "css-modules"

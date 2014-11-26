@@ -6,7 +6,6 @@
     @include visuallyhidden;
   }
   ul {
-    border: 1px solid green;
     margin: 0;
     list-style-type: none;
     padding: 0;
@@ -14,18 +13,27 @@
   }
   li {
     float: left;
-    margin: 1.5em;
+    margin: 1em;
     padding-right: 0.25em;
     padding-left: 0.25em;
     border: 1px solid transparent;
-    &: hover {
-      border-bottom: 0.4em solid $black
-    }
   }
   a {
     color: $black;
     text-decoration: none;
     padding: 0.5em 0.25em;
     display: inline-block;
+  }
+  a: hover {
+    text-decoration: underline;
+  }
+  &.block-large {
+    width: 200%;
+  }
+  &.block-medium {
+    width: 100%;
+  }
+  &.block-small {
+    width: 80%
   }
 }

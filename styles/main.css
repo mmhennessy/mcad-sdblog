@@ -5,6 +5,17 @@ h2 {
   font-family: monospace, sans-serif;
   color: black;
 }
+.utility-bar {
+  float: right;
+}
+.main-nav ul {
+  float: right;
+}
+.main-nav li {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.5em;
+}
 .Blog-Title {
   max width: 12em;
   color: #23cdfd;
@@ -12,11 +23,17 @@ h2 {
   font-size: 1.9em;
 }
 .css-modules {
+  font-weight: bold;
   margin-bottom: 6em;
   padding: 0.25em 0.5em;
+}
+.sop {
+  color: blue;
 }
 .sample-image {
   border: 1px solid $black;
   display: block;
 }
-/Users/mollyhennessy/Documents/github/mcad-sdblog/mcad-sdblog/styles/_article-block.scss
+.utility img {
+  float: right;
+}
